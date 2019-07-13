@@ -1,5 +1,9 @@
 package com.flippedMadTracker.Task;
 
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+@Service("renderer")
 public class StandardOutMessageRenderer implements MessageRenderer{
     private MessageProvider messageProvider;
     @Override
@@ -18,6 +22,7 @@ public class StandardOutMessageRenderer implements MessageRenderer{
     }
 
     @Override
+    @Autowired
     public MessageProvider getMessageProvider() {
         return this.messageProvider;
     }
