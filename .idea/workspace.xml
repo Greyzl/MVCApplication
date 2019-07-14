@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="65e4f42c-297d-4932-ba78-5170d89b4553" name="Default Changelist" comment="" />
+    <list default="true" id="65e4f42c-297d-4932-ba78-5170d89b4553" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/flippedMadTracker/Task/ConfigurableMessageProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/exampleWithConfig/InjectSimpleConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/flippedMadTracker/Task/DeclareSpringComponents.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/flippedMadTracker/Task/DeclareSpringComponents.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/flippedMadTracker/Task/HelloMessageProvider.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/app-context-annotation.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/app-context-annotation.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/msf.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/app-context-annotation.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/app-context-annotation.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/flippedMadTracker/Task/DeclareSpringComponents.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/flippedMadTracker/Task/DeclareSpringComponents.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/flippedMadTracker/Task/HelloMessageProvider.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/flippedMadTracker/Task/HelloWorldConfiguration.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/msf.properties" beforeDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,6 +28,15 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/app-context-annotation.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="7" lean-forward="true" selection-start-line="10" selection-start-column="7" selection-end-line="11" selection-end-column="88" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/flippedMadTracker/Task/MessageProvider.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -36,40 +58,47 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/flippedMadTracker/Task/StandardOutMessageRenderer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="18" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="18" />
+            <state relative-caret-position="165">
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#581#582#0" expanded="true" />
-                <element signature="e#628#629#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/exampleWithConfig/InjectSimpleSpec.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="329">
+              <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/flippedMadTracker/Task/HelloMessageProvider.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/flippedMadTracker/Task/HelloWorldConfiguration.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
+            <state>
+              <caret selection-start-column="2" selection-end-line="8" selection-end-column="3" />
+              <folding>
+                <element signature="e#0#361#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/msf.properties">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/flippedMadTracker/Task/ConfigurableMessageProvider.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="63" selection-start-line="1" selection-start-column="63" selection-end-line="1" selection-end-column="63" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/app-context-annotation.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="42" selection-start-line="8" selection-start-column="42" selection-end-line="8" selection-end-column="42" />
+            <state relative-caret-position="165">
+              <caret line="11" column="53" selection-start-line="11" selection-start-column="53" selection-end-line="11" selection-end-column="53" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -77,8 +106,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/flippedMadTracker/Task/DeclareSpringComponents.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="44" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
+            <state relative-caret-position="90">
+              <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="11" selection-end-column="52" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/exampleWithConfig/InjectSimpleConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="10" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -113,14 +151,19 @@
         <option value="$PROJECT_DIR$/src/main/java/com/flippedMadTracker/Task/HelloWorldSpringDI.java" />
         <option value="$PROJECT_DIR$/src/main/resources/app-context.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/flippedMadTracker/Task/HelloWorldSpringAnnotated.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/flippedMadTracker/Task/HelloWorldConfiguration.java" />
         <option value="$PROJECT_DIR$/src/main/java/oracle/Oracle.java" />
         <option value="$PROJECT_DIR$/src/main/java/oracle/BookwormOracle.java" />
         <option value="$PROJECT_DIR$/src/main/java/oracle/XmlConfigWithBeanFactory.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/flippedMadTracker/Task/HelloMessageProvider.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/flippedMadTracker/Task/StandardOutMessageRenderer.java" />
         <option value="$PROJECT_DIR$/src/main/resources/app-context-annotation.xm" />
+        <option value="$PROJECT_DIR$/src/main/java/com/flippedMadTracker/Task/ConfigurableMessageProvider.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ExampleWithConfig/injectSimpleSpec.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ExampleWithConfig/InjectSimpleSpec.java" />
+        <option value="$PROJECT_DIR$/src/main/java/exampleWithConfig/InjectSimpleSpec.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/flippedMadTracker/Task/HelloWorldConfiguration.java" />
         <option value="$PROJECT_DIR$/src/main/resources/app-context-annotation.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/exampleWithConfig/InjectSimpleConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/flippedMadTracker/Task/DeclareSpringComponents.java" />
       </list>
     </option>
@@ -212,46 +255,25 @@
               <item name="MVCApplication" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="exampleWithConfig" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MVCApplication" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MVCApplication" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="MVCApplication" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="MVCApplication" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="MVCApplication" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework:spring-beans:5.0.9.RELEASE" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="MVCApplication" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework:spring-beans:5.0.9.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-beans-5.0.9.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MVCApplication" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework:spring-beans:5.0.9.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-beans-5.0.9.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="beans" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MVCApplication" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework:spring-beans:5.0.9.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-beans-5.0.9.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="beans" type="462c0819:PsiDirectoryNode" />
-              <item name="factory" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MVCApplication" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework:spring-beans:5.0.9.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-beans-5.0.9.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="beans" type="462c0819:PsiDirectoryNode" />
-              <item name="factory" type="462c0819:PsiDirectoryNode" />
-              <item name="support" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="MVCApplication" type="b2602c69:ProjectViewProjectNode" />
@@ -314,7 +336,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.DeclareSpringComponents">
+  <component name="RunManager" selected="Application.InjectSimpleSpec">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -323,20 +345,6 @@
     </configuration>
     <configuration name="DeclareSpringComponents" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.flippedMadTracker.Task.DeclareSpringComponents" />
-      <module name="MVCApplication" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.flippedMadTracker.Task.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HelloWorldDecoupled" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.flippedMadTracker.Task.HelloWorldDecoupled" />
       <module name="MVCApplication" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -391,6 +399,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="InjectSimpleSpec" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exampleWithConfig.InjectSimpleSpec" />
+      <module name="MVCApplication" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="exampleWithConfig.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -424,11 +446,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.InjectSimpleSpec" />
         <item itemvalue="Application.DeclareSpringComponents" />
         <item itemvalue="Application.HelloWorldSpringAnnotated" />
         <item itemvalue="Application.HelloWorldSpringDI" />
         <item itemvalue="Application.HelloWorldDecoupledWithFactory" />
-        <item itemvalue="Application.HelloWorldDecoupled" />
       </list>
     </recent_temporary>
   </component>
@@ -447,9 +469,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25679544" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25751072" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Capture Tool" order="3" />
@@ -458,7 +479,7 @@
       <window_info id="Learn" order="6" />
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32961586" />
       <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32961586" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39900866" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -553,22 +574,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/msf.properties">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.0.9.RELEASE/spring-context-5.0.9.RELEASE-sources.jar!/org/springframework/context/support/GenericXmlApplicationContext.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="63" selection-start-line="1" selection-start-column="63" selection-end-line="1" selection-end-column="63" />
+        <state relative-caret-position="326">
+          <caret line="41" column="13" selection-start-line="41" selection-start-column="13" selection-end-line="41" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/flippedMadTracker/Task/StandardOutMessageRenderer.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/msf.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="18" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#581#582#0" expanded="true" />
-            <element signature="e#628#629#0" expanded="true" />
-          </folding>
+        <state>
+          <caret selection-end-line="1" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/flippedMadTracker/Task/HelloMessageProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
         </state>
       </provider>
     </entry>
@@ -579,24 +602,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.0.9.RELEASE/spring-context-5.0.9.RELEASE-sources.jar!/org/springframework/context/support/GenericXmlApplicationContext.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.0.9.RELEASE/spring-context-5.0.9.RELEASE-sources.jar!/org/springframework/context/support/AbstractApplicationContext.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="326">
-          <caret line="41" column="13" selection-start-line="41" selection-start-column="13" selection-end-line="41" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/flippedMadTracker/Task/DeclareSpringComponents.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="44" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/app-context-annotation.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="42" selection-start-line="8" selection-start-column="42" selection-end-line="8" selection-end-column="42" />
+        <state relative-caret-position="172">
+          <caret line="515" column="16" selection-start-line="515" selection-start-column="16" selection-end-line="515" selection-end-column="16" />
         </state>
       </provider>
     </entry>
@@ -607,22 +616,64 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/flippedMadTracker/Task/HelloWorldConfiguration.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/flippedMadTracker/Task/StandardOutMessageRenderer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="24" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
+        <state relative-caret-position="165">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#246#247#0" expanded="true" />
-            <element signature="e#295#296#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/flippedMadTracker/Task/HelloMessageProvider.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/flippedMadTracker/Task/ConfigurableMessageProvider.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
+        <state relative-caret-position="165">
+          <caret line="11" column="53" selection-start-line="11" selection-start-column="53" selection-end-line="11" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/flippedMadTracker/Task/DeclareSpringComponents.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="11" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/app-context-annotation.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="7" lean-forward="true" selection-start-line="10" selection-start-column="7" selection-end-line="11" selection-end-column="88" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/exampleWithConfig/InjectSimpleConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="10" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/exampleWithConfig/InjectSimpleSpec.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="329">
+          <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/flippedMadTracker/Task/HelloWorldConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-start-column="2" selection-end-line="8" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#361#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
