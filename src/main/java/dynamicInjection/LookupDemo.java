@@ -3,16 +3,21 @@ package dynamicInjection;
 import org.springframework.context.support.GenericXmlApplicationContext;
 import org.springframework.util.StopWatch;
 
+import java.util.Map;
+
 public class LookupDemo {
     public static void main(String[] args) {
         GenericXmlApplicationContext ctx = new GenericXmlApplicationContext();
         ctx.load("app-context-annotation.xml");
         ctx.refresh();
-        DemoBean abstractBean = ctx.getBean("abstractLookupBean", DemoBean.class);
-        DemoBean standardBean = ctx.getBean("standardLookupBean", DemoBean.class);
 
-        displayInfo("abstractLookupBean",abstractBean);
-        displayInfo("standardLookupBean",standardBean);
+        DemoBean bean = ctx.getBean("standardLookupBean",DemoBean.class);
+        bean.doSomething();
+//        DemoBean abstractBean = ctx.getBean("abstractLookupBean", DemoBean.class);
+//        DemoBean standardBean = ctx.getBean("standardLookupBean", DemoBean.class);
+//
+//        displayInfo("abstractLookupBean",abstractBean);
+//        displayInfo("standardLookupBean",standardBean);
     }
     public static void displayInfo(String beanName, DemoBean bean){
         Singer singer1 = bean.getMySinger();
