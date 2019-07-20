@@ -2,16 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1578925d-7416-46b1-9e16-1738d3027175" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/dynamicInjection/Guitar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dynamicInjection/SingerConfigDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dynamicInjection/SingerWithJSR250.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/javaconfiguration/config/AppConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/javaconfiguration/config/AppConfigOne.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/javaconfiguration/config/JavaConfigExampleOne.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/javaconfiguration/logic/Renderer/StandardOutMessageRenderer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/messages.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dynamicInjection/LookupDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dynamicInjection/LookupDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dynamicInjection/Singer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dynamicInjection/Singer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dynamicInjection/AbstractLookupDemoBean.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dynamicInjection/DemoBean.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dynamicInjection/Guitar.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dynamicInjection/LookupDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dynamicInjection/Singer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dynamicInjection/SingerConfigDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dynamicInjection/SingerWithJSR250.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dynamicInjection/StandardLookupDemoBean.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/app-context-annotation.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/app-context-annotation.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/app-context-annotation.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/app-context-annotation.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/dynamicInjection/LookupDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dynamicInjection/LookupDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/dynamicInjection/Singer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dynamicInjection/Singer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dynamicInjection/AbstractLookupDemoBean.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dynamicInjection/DemoBean.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dynamicInjection/Guitar.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dynamicInjection/LookupDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dynamicInjection/Singer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dynamicInjection/SingerConfigDemo$SingerConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dynamicInjection/SingerConfigDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dynamicInjection/SingerWithJSR250.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dynamicInjection/StandardLookupDemoBean.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,103 +39,115 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/dynamicInjection/Singer.java">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/app-context-annotation.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+            <state relative-caret-position="195">
+              <caret line="13" selection-start-line="13" selection-end-line="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/dynamicInjection/SingerWithJSR250.java">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/messages.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="58" column="14" selection-start-line="58" selection-start-column="14" selection-end-line="58" selection-end-column="14" />
+            <state>
+              <caret column="7" selection-start-column="7" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/javaconfiguration/config/AppConfigOne.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="269">
+              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#225#226#0" expanded="true" />
-                <element signature="e#257#258#0" expanded="true" />
-                <element signature="e#292#293#0" expanded="true" />
-                <element signature="e#322#323#0" expanded="true" />
-                <element signature="e#803#804#0" expanded="true" />
-                <element signature="e#864#865#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/dynamicInjection/SingerConfigDemo.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/javaconfiguration/config/AppConfigTwo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="41" selection-end-column="49" />
+            <state relative-caret-position="165">
+              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/javaconfiguration/logic/Provider/MessageProvider.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="24" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/javaconfiguration/logic/Provider/ConfigurableMessageProvider.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#328#329#0" expanded="true" />
+                <element signature="e#365#366#0" expanded="true" />
+                <element signature="e#411#412#0" expanded="true" />
+                <element signature="e#448#449#0" expanded="true" />
+                <element signature="e#224#225#0" expanded="true" />
+                <element signature="e#250#251#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/javaconfiguration/logic/Renderer/MessageRenderer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="41" selection-start-line="7" selection-start-column="41" selection-end-line="7" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/javaconfiguration/logic/Renderer/StandardOutMessageRenderer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="317">
+              <caret line="23" column="82" selection-start-line="23" selection-start-column="82" selection-end-line="23" selection-end-column="82" />
+              <folding>
+                <element signature="e#565#566#0" expanded="true" />
+                <element signature="e#592#593#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/javaconfiguration/config/AppConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="21" column="31" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#374#375#0" expanded="true" />
+                <element signature="e#429#430#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/javaconfiguration/config/JavaConfigExampleOne.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="37" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/dynamicInjection/DemoBean.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/dynamicInjection/AbstractLookupDemoBean.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/dynamicInjection/StandardLookupDemoBean.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/dynamicInjection/Guitar.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
-              <folding>
-                <element signature="e#71#72#0" expanded="true" />
-                <element signature="e#122#123#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/dynamicInjection/LookupDemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="74">
-              <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="14" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/app-context-annotation.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
             </state>
           </provider>
         </entry>
@@ -130,6 +157,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -144,9 +172,20 @@
         <option value="$PROJECT_DIR$/src/main/java/dynamicInjection/Guitar.java" />
         <option value="$PROJECT_DIR$/src/main/java/dynamicInjection/Singer.java" />
         <option value="$PROJECT_DIR$/src/main/java/dynamicInjection/LookupDemo.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/app-context-annotation.xml" />
         <option value="$PROJECT_DIR$/src/main/java/dynamicInjection/SingerWithJSR250.java" />
         <option value="$PROJECT_DIR$/src/main/java/dynamicInjection/SingerConfigDemo.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/app-context-annotation.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/javaconfiguration/logic/Provider/MessageProvider.java" />
+        <option value="$PROJECT_DIR$/src/main/java/javaconfiguration/logic/Provider/MessageProvider/ConfigurableMessageProvider.java" />
+        <option value="$PROJECT_DIR$/src/main/java/javaconfiguration/logic/Renderer/MessageRenderer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/javaconfiguration/logic/Renderer/StandertOutMessageRenderer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/javaconfiguration/logic/Renderer/StandardOutMessageRenderer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/javaconfiguration/config/AppConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/messages.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/javaconfiguration/config/JavaConfigExampleOne.java" />
+        <option value="$PROJECT_DIR$/src/main/java/javaconfiguration/logic/Provider/ConfigurableMessageProvider.java" />
+        <option value="$PROJECT_DIR$/src/main/java/javaconfiguration/config/AppConfigTwo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/javaconfiguration/config/AppConfigOne.java" />
       </list>
     </option>
   </component>
@@ -199,7 +238,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="dynamicInjection" type="462c0819:PsiDirectoryNode" />
+              <item name="javaconfiguration" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="MVCApplication" type="b2602c69:ProjectViewProjectNode" />
@@ -232,6 +271,11 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
   </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="javaconfiguration.config" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -244,7 +288,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SingerConfigDemo">
+  <component name="RunManager" selected="Application.JavaConfigExampleOne">
+    <configuration name="JavaConfigExampleOne" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javaconfiguration.config.JavaConfigExampleOne" />
+      <module name="MVCApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="javaconfiguration.config.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LookupDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="dynamicInjection.LookupDemo" />
       <module name="MVCApplication" />
@@ -286,6 +343,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.JavaConfigExampleOne" />
         <item itemvalue="Application.SingerConfigDemo" />
         <item itemvalue="Application.SingerWithJSR250" />
         <item itemvalue="Application.LookupDemo" />
@@ -339,9 +397,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/dynamicInjection/AbstractLookupDemoBean.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -371,13 +426,6 @@
             <element signature="e#71#72#0" expanded="true" />
             <element signature="e#122#123#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/app-context-annotation.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
         </state>
       </provider>
     </entry>
@@ -419,11 +467,108 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/dynamicInjection/SingerConfigDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="41" selection-end-column="49" />
+        <state relative-caret-position="207">
+          <caret line="19" column="26" lean-forward="true" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/javaconfiguration/logic/Renderer/MessageRenderer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="41" selection-start-line="7" selection-start-column="41" selection-end-line="7" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/javaconfiguration/logic/Renderer/StandardOutMessageRenderer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="317">
+          <caret line="23" column="82" selection-start-line="23" selection-start-column="82" selection-end-line="23" selection-end-column="82" />
+          <folding>
+            <element signature="e#565#566#0" expanded="true" />
+            <element signature="e#592#593#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/javaconfiguration/config/AppConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="31" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#374#375#0" expanded="true" />
+            <element signature="e#429#430#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/app-context-annotation.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/messages.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="7" selection-start-column="7" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/javaconfiguration/config/JavaConfigExampleOne.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="37" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/javaconfiguration/logic/Provider/MessageProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="24" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/javaconfiguration/logic/Provider/ConfigurableMessageProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#328#329#0" expanded="true" />
+            <element signature="e#365#366#0" expanded="true" />
+            <element signature="e#411#412#0" expanded="true" />
+            <element signature="e#448#449#0" expanded="true" />
+            <element signature="e#224#225#0" expanded="true" />
+            <element signature="e#250#251#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/javaconfiguration/config/AppConfigOne.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/javaconfiguration/config/AppConfigTwo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
     </entry>
