@@ -27,6 +27,7 @@ public class PlainJdbcDemo {
         logger.info("Listing singer data " +
                 "after new singer created:");
         listAllSingers();
+        singerDao.delete(singer.getId());
     }
 
     private static void listAllSingers(){

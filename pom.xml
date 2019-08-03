@@ -83,7 +83,17 @@
                 <artifactId>commons-dbcp</artifactId>
                 <version>1.2.2</version>
             </dependency>
-
+            <!-- https://mvnrepository.com/artifact/junit/junit -->
+            <dependency>
+                <groupId>junit</groupId>
+                <artifactId>junit</artifactId>
+                <version>4.5</version>
+            </dependency>
+            <dependency>
+                <groupId>com.h2database</groupId>
+                <artifactId>h2</artifactId>
+                <version>1.4.199</version>
+            </dependency>
         </dependencies>
     <properties>
         <spring.version>S.0.9.RELEASE</spring.version>
